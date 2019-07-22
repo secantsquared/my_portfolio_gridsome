@@ -4,9 +4,14 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "now-build": "yarn run build"
   },
   "dependencies": {
-    "gridsome": "^0.6.0"
+    "gridsome": "^0.6.0",
+    "vuetify": "^1.5.16"
+  },
+  "devDependencies": {
+    "webpack-node-externals": "^1.7.2"
   }
 }
